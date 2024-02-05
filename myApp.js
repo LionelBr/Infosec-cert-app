@@ -1,5 +1,12 @@
 const express = require('express');
+const helmet = require('helmet');
+const PORT = process.env.PORT || 3030;
+
 const app = express();
+
+app.listen(PORT, () => (
+  console.log(`🍌 Demonstrating my IT SEC skills  on port 🍌${PORT}`)
+))
 
 
 
